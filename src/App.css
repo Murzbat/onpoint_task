@@ -1,0 +1,70 @@
+.App {
+  /* min-height: 100%; */
+  display: flex;
+  max-width: 1024px;
+  max-height: 768px;
+  /* overflow-y: hidden; */
+  /* overflow-y: scroll;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+   */
+  overflow: hidden;
+}
+.App::-webkit-scrollbar {width:0px;}
+.App-wrapper {
+  transition: 1s;
+  width: 100%;
+}
+@font-face {
+  font-family: GothamPro;
+  src: url('./fonts/GothamPro.ttf');
+}
+
+@font-face {
+  font-family: GothamProLight;
+  src: url('./fonts/GothamProLight.ttf')
+}
+
+@font-face {
+  font-family: LatoM;
+  src: url('./fonts/Lato-Medium.ttf');
+}
+
+@font-face {
+  font-family: LatoS;
+  src: url('./fonts/Lato-Semibold.ttf');
+}
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+} */
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */

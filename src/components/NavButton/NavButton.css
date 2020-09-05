@@ -1,0 +1,25 @@
+.navbar {
+    position: fixed;
+    top: 352px;
+    right: 27px;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+   
+  }
+  
+  .navbar-item {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    padding: 0;
+    margin-bottom: 7px;
+    transition: 1s;
+  }
+  /* .main__wrapper[data-page="0"]~.pagination .pagination__item--0,
+  .main__wrapper[data-page="1"]~.pagination  .pagination__item--1,
+  .main__wrapper[data-page="2"]~.pagination .pagination__item--2 {
+      background-color: #f78b1f;
+  } */

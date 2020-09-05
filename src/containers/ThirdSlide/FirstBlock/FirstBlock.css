@@ -1,0 +1,28 @@
+.first-slide {
+    width: 1024px;
+    height: 768px;
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    overflow: hidden;
+    scroll-snap-align: center;
+
+  }
+  
+  .first-slide-title {
+    font-size: 30px;
+    font-family: GothamPro;
+    color: #ffffff;
+    margin-left: 84px;
+    margin-top: 117px;
+  }
+  
+  .first-slide-box {
+    background: url('../../../assets/slide-1-box.png');
+    width: 578px;
+    height: 330px;
+    background-size: cover;
+    align-self: center;
+    margin-top: 64px;
+  }
+  

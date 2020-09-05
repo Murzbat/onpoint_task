@@ -1,0 +1,59 @@
+.radio-circle {
+  background-image: url(../../assets/radio-circle.svg);
+  background-size: cover;
+  position: absolute;
+}
+
+.radio-circle--1 {
+  left: 562px;
+  top: 264px;
+  width: 53px;
+  height: 53px;
+}
+
+.radio-circle--2 {
+  left: 274px;
+  top: 427px;
+  width: 28px;
+  height: 28px;
+}
+
+.radio-circle--3 {
+  left: 823px;
+  top: 517px;
+  width: 17px;
+  height: 17px;
+}
+
+.radio-circle--4 {
+  left: 478px;
+  top: 538px;
+  width: 17px;
+  height: 17px;
+}
+.textline {
+  position: absolute;
+}
+.textline {
+  font-size: 20px;
+  color: #0d319c;
+}
+.textline--1 {
+  left: 625px;
+  top: 282px;
+}
+
+.textline--2 {
+  left: 223px;
+  top: 402px;
+}
+
+.textline--3 {
+  left: 761px;
+  top: 493px;
+}
+
+.textline--4 {
+  left: 358px;
+  top: 512px;
+}
